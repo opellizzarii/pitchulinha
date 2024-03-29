@@ -6,91 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BikCraft</title>
   <link rel="stylesheet" href="/css/style.css">
-
-  body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  }
-  ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  }
-  a {
-  text-decoration: none;
-  }
-  .header-bg {
-  background-color: #000000;
-  }
-
-  .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  gap: 20px;
-  }
-  .header-menu {
-  display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
-  }
-  .header-menu a {
-  padding: 16px 0px;
-  display: inline-block;
-  color: #ffffff;
-  font-size: 18px;
-  position: relative;
-  }
-  .header-menu a:after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0px;
-  background-color: #ffffff;
-  margin-top: 4px;
-  transition: 0.3s;
-  position: absolute;
-  }
-
-  .header-menu a:hover:after {
-  width: 100%;
-  }
-
-  @media (max-width: 800px) {
-  .header {
-  justify-content: center;
-  }
-  .header-menu {
-  gap: 20px;
-  }
-  .header-menu a {
-  background: #111111;
-  padding: 12px 16px;
-  border-radius: 4px;
-  }
-  .header-menu a:hover {
-  background-color: #2e2e2e;
-  }
-  .header a:after {
-  display: none;
-  }
-  }
-
-  @media (max-width: 600px) {
-  .header-menu {
-  gap: 12px;
-  }
-  .header-menu a {
-  padding: 8px 12px;
-  font-size: 14px;
-  }
-  }
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -106,6 +27,19 @@
       </nav>
     </div>
   </header>
+  <main class="introducao-bg">
+    <div class="introducao">
+      <div class="introducao-conteudo">
+        <h1>Bicicletas feitas sob medida.</h1>
+        <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft <span>.</span></p>
+        <a class="botao" href="./bicicletas.html">escolha a sua</a>
+      </div>
+      <div>
+        <img src="/img/fotos/introducao.jpg" alt="Bicicleta preta">
+      </div>
+    </div>
+  </main>
+
 </body>
 
 </html>
