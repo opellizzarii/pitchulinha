@@ -1,15 +1,18 @@
 /*RESET*/
-@import "/css/global/global.css";
+@import "./css/global/global.css";
 /*tipografia*/
-@import "/css/utilidades/componentes/tipografia.css";
+@import "./css/utilidades/componentes/tipografia.css";
 /*cores*/
-@import "/css/utilidades/componentes/cores.css";
+@import "./css/utilidades/componentes/cores.css";
 
 /*CABEÇALHO*/
-@import "/css/global/header.css";
+@import "./css/global/header.css";
 
 /*UTILIDADES*/
-@import "/css/utilidades/componentes/componentes.css";
+@import "./css/utilidades/componentes/componentes.css";
 
 /*HOME*/
-@import "/css/home/introducao.css";
+@import "./css/home/introducao.css";
+
+/*LISTA DE BICICLETAS*/
+@import "./bicicletas/bicicletas-lista.css";
