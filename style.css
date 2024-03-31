@@ -4,15 +4,17 @@
 @import "./css/utilidades/componentes/tipografia.css";
 /*cores*/
 @import "./css/utilidades/componentes/cores.css";
+/*UTILIDADES*/
+@import "./css/utilidades/componentes/componentes.css";
 
 /*CABEÇALHO*/
 @import "./css/global/header.css";
-
-/*UTILIDADES*/
-@import "./css/utilidades/componentes/componentes.css";
 
 /*HOME*/
 @import "./css/home/introducao.css";
 
 /*LISTA DE BICICLETAS*/
-@import "./bicicletas/bicicletas-lista.css";
+@import "./css/bicicletas/bicicletas-lista.css";
+
+/*TECNOLOGIA*/
+@import "./css/home/tecnologia.css";
