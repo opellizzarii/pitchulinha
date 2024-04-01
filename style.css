@@ -21,3 +21,9 @@
 
 /*PARCEIROS*/
 @import "./css/home/parceiros.css";
+
+/*DEPOIMENTO*/
+@import "./css/home/depoimento.css";
+
+/*SEGUROS*/
+@import "./css/seguros/seguros.css";
