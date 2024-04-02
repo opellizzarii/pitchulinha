@@ -9,6 +9,7 @@
 
 /*CABEÇALHO*/
 @import "./css/global/header.css";
+@import "./css/global/footer.css";
 
 /*HOME*/
 @import "./css/home/introducao.css";
